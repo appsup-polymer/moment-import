@@ -3,7 +3,7 @@
 mkdir -p locale
 for l in $(ls bower_components/moment/locale)
  do
-   echo "<script src="../moment/locale/$l"></script>" > "locale/${l/.js/.html}"
+   echo "<script src="../../moment/locale/$l"></script>" > "locale/${l/.js/.html}"
  done
 
 echo "<script src="../moment/moment.js"></script>" > "moment.html"
